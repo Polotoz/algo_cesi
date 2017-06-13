@@ -5,9 +5,9 @@
 /**
  * Fonction permettant de résoudre la tour d'Hanoi
  * @param type $nbDisque
- * @param type $pile1
- * @param type $pile2
- * @param type $pile3
+ * @param type $pile1 pile de départ
+ * @param type $pile2 pile de destination
+ * @param type $pile3 pile intermediraire
  */
 function tourHanoi($nbDisque, $pile1, $pile2, $pile3){
 
