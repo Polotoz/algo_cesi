@@ -3,6 +3,39 @@
 
 
 /**
+ * 
+ * 4 disques sur 1 - 0 sur 2 - 0 sur 3
+ * 
+ * 3 disques sur 1 - 0 sur 2 - 1 sur 3
+ * 
+ * 2 disques sur 1 - 1 sur 2 - 1 sur 3
+ * 
+ * 2 disques sur 1 - 2 sur 2 - 0 sur 3
+ * 
+ * 1 disque sur 1 - 2 sur 2 - 1 sur 3
+ * 
+ * 2 disques sur 1 - 1 sur 2 - 1 sur 3
+ * 
+ * 2 disques sur 1 - 0 sur 2 - 2 sur 3
+ * 
+ * 1 disque sur 1 - 0 sur 2 - 3 sur 3
+ * 
+ * 0 disque sur 1 - 1 sur 2 - 3 sur 3
+ * 
+ * 0 disque sur 1 - 2 sur 2 - 2 sur 3
+ * 
+ * 1 disque sur 1 - 2 sur 2 - 1 sur 3
+ * 
+ * 2 disques sur 1 - 1 sur 2 - 1 sur 3
+ * 
+ * 2 disques sur 1 - 2 sur 2 - 0 sur 3
+ * 
+ * 1 disque sur 1 - 2 sur 2 - 1 sur 3
+ * 
+ * 0 disque sur 1 - 3 sur 2 - 1 sur 3
+ * 
+ * 0 disque sur 1 - 4 sur 2 - 0 sur 3
+ * 
  * Fonction permettant de résoudre la tour d'Hanoi
  * @param type $nbDisque
  * @param type $pile1 pile de départ
