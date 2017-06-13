@@ -1,7 +1,5 @@
 <?php
 
-
-
 /**
  * 
  * 4 disques sur 1 - 0 sur 2 - 0 sur 3
@@ -56,4 +54,4 @@ function tourHanoi($nbDisque, $pile1, $pile2, $pile3){
     }
 }
 
-tourHanoi(4,1,2,3);
+tourHanoi(30,1,2,3);
