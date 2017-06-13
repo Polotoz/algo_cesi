@@ -116,14 +116,19 @@ and open the template in the editor.
         })(); 
         
         
-        //A finir
+        //TODO : AJOUTER LES CLASSE POUR POUVOIR METTRE EN ROUGE LE CHEMIN LE PLUS COURTS
+        //TODO : RECUPERER LE CHEMIN LE PLUS COURT
         function cheminLePlusCourt(jsonData){
             
             $.each(jsonData, function(index,value){
+                if(value.level === '0') {
+                    $('.node').val
+                    console.log(value.name);
+                }
                 if(typeof value.children == "object" && value.children !== null){
                         $.each(value.children, function(i,v){
                             if(v.pos === "right"){
-                                console.log(v.name);
+                                //console.log(v.name);
                             }
                         });
                         cheminLePlusCourt(value.children);   
